@@ -1,0 +1,58 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #34495E ;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Sixtyfour Convergence";
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+h6 {
+  position: fixed; /* Fix the element to the viewport */
+  bottom: 10px;    /* Distance from the bottom of the screen */
+  right: 10px;     /* Distance from the right of the screen */
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+}
+
+
+.btn{
+
+  display: flexbox;
+  flex-direction: column;
+  padding-top: 3%;
+
+}
+button{
+  border-radius: 15%;
+  padding: 10px;
+  font-weight: bolder;
+  color:black;
+  background-color: greenyellow;
+}
